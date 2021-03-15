@@ -1,0 +1,25 @@
+.form{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.form div {
+  width: 100%;
+  margin-right: 2rem;
+}
+.form div input{
+  width: 100%;
+  margin-bottom:1.5rem;
+  padding: 0.5rem;
+  height: 2.3rem;
+  font-size: 1.5rem;
+}
+.btn{
+	border: none;
+  height: 2.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.enregistrer {
+  background-color: rgb(10 181 62);
+}

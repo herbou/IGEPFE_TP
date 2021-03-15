@@ -1,0 +1,29 @@
+table {
+  width: 100%;
+  color: #666;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.65rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  color: #222;
+  background-color: #f6f6f6;
+  font-size: 1.1rem;
+}
+
+tbody tr:hover{
+  background-color: #f9f9f9;
+}
+
+.modifier-btn {
+  font-size: 0.8rem;
+  color : #46f;
+}
+.supprimer-btn {
+  font-size: 0.8rem;
+  color : #f56;
+}

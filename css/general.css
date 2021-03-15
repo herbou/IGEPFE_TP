@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, Arial, sans-serif;
+}
+
+header {
+	background-color: #222;
+	height: 8vh;
+	color: #fff;
+	padding: 0 2rem;
+	display: flex;
+  align-items: center;
+}
+
+header > form > input, header > .ajouter-btn {
+	height: 1.9rem;
+	padding: 0 1rem;
+	font-size: 1rem;
+}
+.logo{
+	margin-right: auto;
+}
+.logo a{
+	text-decoration: none;
+	color:white;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color:white;
+  background-color: #333;
+  padding:0.5rem 2rem;
+  border-radius: 3px;
+}
+.ajouter-btn {
+  display: flex;
+	align-items: center;
+	margin-right: 2rem;
+	background-color: rgb(51, 105, 255);
+}
+.auth{
+	color: #fff;
+	margin-left: 2rem;
+}
+
+.section {
+	padding: 2rem;
+	min-height: 84vh;
+}
+
+footer {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 8vh;
+	background-color: #eee;
+	border-top: solid 1px #ddd;
+	color: #888;
+	padding: 1rem;
+}
