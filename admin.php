@@ -15,6 +15,7 @@
     header("Location: index.php");
     exit();
   }
+//test
 
   $messages = "";
   if (isset($_POST['authentifier'])){
